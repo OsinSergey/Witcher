@@ -2,6 +2,7 @@ document.addEventListener("DOMContentLoaded", function () {
 	let mySwiper = new Swiper('.swiper-container', {
 		slidesPerView: 1,
 		loop: true,
+		width: 380,
 		navigation: {
 			nextEl: '.arrow',
 		},
